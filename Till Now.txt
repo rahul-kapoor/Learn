@@ -1,0 +1,14 @@
+Create a new GitHub Repo
+Cloned the repor to Local
+Updated the python to 3.7
+Installed Django
+
+Steps for initiatio of Django:
+in command prompt navigate to location which you want to store Projects in
+Type: django-admin startproject mysite
+Strat the main: py -3.7 manage.py startapp main
+Run Server: py manage.py runserver
+Can see the website running on http://127.0.0.1:8000
+Copy URLs.py from mysite to Main 
+
+Point mysite to main as mysite is out primary app
