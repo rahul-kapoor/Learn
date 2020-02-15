@@ -12,3 +12,22 @@ Can see the website running on http://127.0.0.1:8000
 Copy URLs.py from mysite to Main 
 
 Point mysite to main as mysite is out primary app
+
+add the newely created app to 'InstalledApps' under settings.py
++'main.apps.MainConfig'
+
+
+Database 
+python manage.py makemigrations
+python manage.py migrate
+
+
+Admin Page (superuser/test)
+python manage.py createsuperuser 
+follow the steps
+
+
+Register the already created model to the admin page
+under 'admins.py'
+Resited the model by tying
+admin.site.register(Tutorial)
