@@ -31,3 +31,7 @@ Register the already created model to the admin page
 under 'admins.py'
 Resited the model by tying
 admin.site.register(Tutorial)
+
+
+LEarn About CSS
+Learn about crsrf token
