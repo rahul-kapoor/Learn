@@ -1,0 +1,3 @@
+Setup Java Paths
+Downloaded and Installed Jenkins
+Created the first Demo task for Jenkins
